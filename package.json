@@ -1,6 +1,6 @@
 {
   "name": "vamtiger-get-directory-content",
-  "version": "0.0.5",
+  "version": "0.0.6-0",
   "description": "Get a list of all directory content.",
   "main": "build",
   "repository": "https://github.com/vamtiger-project/vamtiger-get-directory-content.git",
