@@ -31,4 +31,4 @@ Since [VAMTIGER Get Directory Content](https://github.com/vamtiger-project/vamti
 async someAsyncFunction function() {
     const directoryContent = await getDirectoryContent('some/directory/absolute/path');
 }
-```
+``` 
