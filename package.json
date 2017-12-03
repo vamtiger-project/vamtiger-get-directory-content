@@ -1,10 +1,10 @@
 {
   "name": "vamtiger-get-directory-content",
-  "version": "0.0.20",
+  "version": "0.0.21-0",
   "description": "Get a list of all directory content.",
   "main": "build",
   "repository": "https://github.com/vamtiger-project/vamtiger-get-directory-content.git",
-  "author": "Vamtiger Immportalles",
+  "author": "Vamtiger Immortalles",
   "license": "MIT",
   "scripts": {
     "test": "mocha build/test --recursive",
