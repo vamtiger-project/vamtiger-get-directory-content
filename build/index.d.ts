@@ -10,5 +10,5 @@ export interface VamtigerReadDirectoryOptionsObject {
     encoding?: BufferEncoding;
 }
 export declare type VamtigerReadDirectory = (path: VamtigerReadDirectoryPath, options?: VamtigerReadDirectoryOptions) => Promise<VamtigerReadDirectoryEntries>;
-declare const _default: (arg1: PathLike) => Promise<string[]>;
+declare const _default: VamtigerReadDirectory;
 export default _default;
