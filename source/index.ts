@@ -15,4 +15,4 @@ export interface VamtigerReadDirectoryOptionsObject {
 
 export type VamtigerReadDirectory = (path: VamtigerReadDirectoryPath, options?: VamtigerReadDirectoryOptions) => Promise<VamtigerReadDirectoryEntries>;
 
-export default Promise.promisify(readdir);
+export default Promise.promisify(readdir) as VamtigerReadDirectory;
