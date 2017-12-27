@@ -1,4 +1,4 @@
-# VAMTIGER Bash
+# VAMTIGER Get Directory Content
 Get a list of all entries for a defined directory path.
 
 ## Installation
