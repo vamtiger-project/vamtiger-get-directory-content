@@ -7,6 +7,11 @@
   "repository": "https://github.com/vamtiger-project/vamtiger-get-directory-content.git",
   "author": "Vamtiger Immortalles",
   "license": "MIT",
+  "keywords": [
+    "directory",
+    "content",
+    "vamtiger"
+  ],
   "scripts": {
     "test": "mocha build/test --recursive",
     "build": "tsc",
