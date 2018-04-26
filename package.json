@@ -19,6 +19,7 @@
     "node": "node -v"
   },
   "devDependencies": {
+    "@types/bluebird": "^3.5.20",
     "@types/chai": "^4.0.6",
     "@types/mocha": "^2.2.44",
     "@types/node": "^8.0.53",
@@ -27,5 +28,7 @@
     "typescript": "^2.6.2",
     "vamtiger-node-typescript-commit": "^0.0.42"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
 }
