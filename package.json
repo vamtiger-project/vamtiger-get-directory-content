@@ -1,6 +1,6 @@
 {
   "name": "vamtiger-get-directory-content",
-  "version": "0.0.33",
+  "version": "0.0.34-0",
   "description": "Get a list of all directory content.",
   "main": "build",
   "types": "build/index.d.ts",
@@ -19,6 +19,7 @@
     "node": "node -v"
   },
   "devDependencies": {
+    "@types/bluebird": "^3.5.20",
     "@types/chai": "^4.0.6",
     "@types/mocha": "^2.2.44",
     "@types/node": "^8.0.53",
@@ -27,5 +28,7 @@
     "typescript": "^2.6.2",
     "vamtiger-node-typescript-commit": "^0.0.42"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
 }
